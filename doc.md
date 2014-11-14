@@ -2,7 +2,7 @@ N-Puzzle Design Document.
 Pieter van Dijk
 10252088	
 
-An image of the app-layout, to which will be referred multiple times in this document, can be found at [URL URL URL URL URL URL URL URL]
+An image of the app-layout, to which will be referred multiple times in this document, can be found at ![My Picture](https://github.com/phhm/appstudio/blob/master/app-idea.png)
 
 The purpose of this app is to create a game for android-operation mobile devices. In this game, a picture will be divided in multiple tiles, which are subsequently shuffled. 1 of the tiles is left away, in order to be able to move tiles to that empty position. When the original place of all tiles has been found, the game is finished. Several pictures can be chosen to use as puzzle.
 
