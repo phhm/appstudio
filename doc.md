@@ -1,7 +1,9 @@
 N-Puzzle Design Document.
+=========================
 Pieter van Dijk
+===============
 10252088	
-
+========
 The App's layout: 
 
 ![My Picture](https://github.com/phhm/appstudio/blob/master/app-idea.png)
