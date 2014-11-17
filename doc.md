@@ -12,7 +12,7 @@ The App's layout:
 
 **In this first view**, the public class `MainActivity` (1. in the layout picture), besides some welcoming text, a list of possible images to use for the puzzle is shown. The data of this pictures can be displayed by `ListView`, whereas the actual data will be hold by `ArrayAdapter`.
 
-`photos = new ArrayAdapter(Context c, int resource, List objects)`
+`photos = new ArrayAdapter(Context c, int resource, List objects)`  
 `getListView().setListAdapter(photos)`
 
 the last sentence visualizes the data that was stored in ‘photos’.
