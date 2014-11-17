@@ -21,11 +21,11 @@ The OnClickListener method is implemented, in order to make a certain action hap
 
 **To be able to use images in the app**, they should be stored as Bitmaps. This can be done by using BitmapFactory. In the res/drawable folder are the image files located.
 
-`Bitmap photo1 = BitmapFactory.decodeResource(Resources getResources(), R.drawable.<image>)`
-`ImageView imageView = new ImageView(this);`
+`Bitmap photo1 = BitmapFactory.decodeResource(Resources getResources(), R.drawable.<image>)`  
+`ImageView imageView = new ImageView(this);`  
 `imageView.setImageBitmap(photo1)`
 
-`LinearLayout root = (Linearlayout)this.findViewById(R.id.root_layout);`
+`LinearLayout root = (Linearlayout)this.findViewById(R.id.root_layout);`  
 `root.addView(imageView)`
 
 Here, in public class `SecondActivity` (2. in the app-layout image), the bitmap is shown to the screen
@@ -40,7 +40,7 @@ In public class `ThirdActivity` (3. in the app-layout image)
 The different images will all be linked to a number, from 1-8 (easy), 1-15(medium) or 1-24 (hard).
 Whenever a certain tile is pushed, it will go to the empty adjecent tile and the board will change. When the numbers are ordered from 1-highest number (left top to right bottom) the game is finished.
 
-**Whenever the game is left** (no more battery, or user presses the home button) the game should be saved. This means that the state of the board, the number of moves and the difficulty should be saved.The public void super.onPause() method should be called whenever the Activity (Main-, Second- or Third) is removed from foreground state. In this function should the ‘saves’ take place:
+**Whenever the game is left** (no more battery, or user presses the home button) the game should be saved. This means that the state of the board, the number of moves and the difficulty should be saved.The public void `super.onPause()` method should be called whenever the Activity (Main-, Second- or Third) is removed from foreground state. In this function should the ‘saves’ take place:
 
 `sharedPreferencesEditor.put<type>(String name, int value)`
 
